@@ -40,7 +40,7 @@ function ProfileList() {
           </li>
         ))}
       </ul>
-      <Link to="/dashboard">Add newProfile</Link>
+      <Link className="new" to="/dashboard">Add newProfile</Link>
     </div>
   );
 }
